@@ -6,7 +6,8 @@ sample for esp32s2 environment and simple hello world
 * as explained in [espressif updateing release branch](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/versions.html#updating-release-branch), there's nothing else but git commands to swap versions
 * installation will use virtual env located in e.g. `$HOME/.espressif/python_env/idf4.1_py3.8_env`
 # Environment
-Note : as of 29/08/2020 v4.1 only supports esp32s2beta and not esp32s2, so master will be used and this example will be updated to the first release supporting the esp32s2. The master comes with issues commit `6c17e3a64c0` has python depdenecies conflic fixed with update of `esp-idf-master/requirements.txt`
+* Note1 : Makefiles are no longer necessary so removed from this example
+* Note2 : as of 29/08/2020 v4.1 only supports esp32s2beta and not esp32s2, so master will be used and this example will be updated to the first release supporting the esp32s2. The master comes with issues commit `6c17e3a64c0` has python depdenecies conflic fixed with update of `esp-idf-master/requirements.txt`
 ```python
 gdbgui==0.13.2.0
 pygdbmi==0.9.0.2
